@@ -12,3 +12,5 @@ spring:
 
   sql: 
     init:
+  server:
+    port: ${PORT:8081}
