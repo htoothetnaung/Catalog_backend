@@ -4,7 +4,6 @@ spring:
     username: ${PROD_DB_USER}
     password: ${PROD_DB_PASSWORD}
     name: pet-catalog
-  jpa:
     hibernate:
       ddl-auto: update
     properties:
