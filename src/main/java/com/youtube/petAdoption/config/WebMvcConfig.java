@@ -13,7 +13,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
             .allowedOrigins(
-                "https://sheltercatalog-production.up.railway.app",
+                "https://pawxcatalog.netlify.app/",
                 "http://localhost:4200"
             )
             .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
